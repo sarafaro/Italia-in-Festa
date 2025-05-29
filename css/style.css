@@ -308,8 +308,7 @@ footer nav a {
 
 @media (max-width: 1500px) {
   section.card {
-    grid-template-columns: repeat(3, 1fr);
-    
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     margin: 48px auto;
     padding: 0 16px;
@@ -317,7 +316,6 @@ footer nav a {
 
   .card-3{
     grid-template-columns: repeat(2, 1fr);
-    
     gap: 25px;
     margin: 48px auto;
     padding: 0 16px;
@@ -325,10 +323,11 @@ footer nav a {
   
 
   .carte {
- 
     padding: 48px 16px 24px;
     gap: 48px;
   }
+
+  
    .content h1 {
     font-size: 18px;
     text-align:left;
@@ -341,7 +340,7 @@ footer nav a {
   }
  .attivita-ed-esperienze {
     grid-template-columns: repeat(3, 1fr); 
-    max-width: 70%; 
+    max-width: 60%; 
     gap: 24px; 
     margin: 32px auto;
     padding: 0 16px 20px;
