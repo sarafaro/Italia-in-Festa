@@ -1,0 +1,1258 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #101129;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 64px 16px 32px; 
+  max-width: 60%;
+  margin: auto;
+  
+}
+
+.carte-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px; 
+  align-items: start;
+}
+
+.h2-carte {
+  position: sticky;
+  top: 140px;
+  font-size: 18px; 
+  font-weight: normal;
+  padding-right: 50px;
+}
+
+.h2-carte h2 {
+  margin: 0;
+  font-size: 22px;
+
+}
+
+.content-carte {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  
+}
+
+.p-carte {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #F4F4F4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px 20px 20px;
+  border-radius: 8px;
+  
+}
+
+.p-carte p {
+  margin-bottom: 1rem;
+  font-size: 16px; 
+  color: #101129;
+}
+
+.p-carte h2{
+  font-size: 20px;
+}
+
+.img-carte img {
+  height: auto; 
+  border-radius: 8px;
+}
+
+section.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 60%; 
+  margin: 48px auto;
+  gap: 30px;
+  
+}
+
+.card img,
+section.card img {
+  height: 250px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+section.card p,
+.card .text-box p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #F4F4F4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  height: 45px;
+  align-items: center;
+  align-content: center;
+  padding: 30px 30px 30px 30px;
+ border-radius: 8px;
+  
+}
+
+section.card .text a {
+  color: #101129;
+  font-weight: bold ;
+}
+
+section.card div {
+  border-radius: 10px;
+  padding: 0 0 5px;
+  height: auto;
+}
+
+.sezione-sfondo {
+  background-color: #f5f5dc; 
+  padding: 40px 20px;        
+  width: 100%;
+  box-sizing: border-box;  
+}
+
+section.intro {
+  margin: auto;
+  font-size: 18px;
+  color: #101129;
+  padding: 50px;
+}
+
+.content {
+  max-width: 60%; 
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 32px 16px; 
+  text-align: center;
+}
+
+.card,
+.blocco {
+  display: flex;
+  align-items: stretch;
+  gap: 25px;
+}
+
+.card img,
+.blocco img {
+  width: 15%; 
+
+  border-radius: 8px;
+}
+
+.card .text-box,
+.blocco .text-box {
+  width: 100%;
+  padding: 25px;
+  border-radius: 8px;
+  color: #101129;
+}
+
+.card .text-box {
+  background-color: #CEF17B;
+}
+
+.blocco .text-box {
+  background-color: #D5EFE6;
+}
+
+.card .text-box h2,
+.blocco .text-box h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .text-box p,
+.blocco .text-box p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.attivita-ed-esperienze {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: stretch; 
+  max-width: 60%;
+  margin: 48px auto;
+  padding-bottom: 20px;
+  gap: 30px; 
+}
+
+.box-testo {
+  background-color: #F4F4F4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+.box-testo h2,
+.box-testo p,
+.box-testo a{
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
+  align-content: center;
+  
+  
+}
+
+.box-testo a {
+  color: #084734;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.box-immagini {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch; 
+}
+
+.box-immagini img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+
+.nome-sezione1{
+  max-width: 60%; 
+  margin: 48px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nome-sezione {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+}
+
+
+.nome-sezione h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+}
+
+
+.nome-sezione a {
+  text-decoration: underline;
+  color: #2E2D2D;
+  font-weight:bold;
+  margin: 48px auto;
+}
+
+footer {
+  margin-top: 3%;
+  padding: 1.2rem 2rem;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+footer nav {
+  display: flex;
+  gap: 10px;
+}
+
+footer nav a {
+  color: #101129;
+  text-decoration: none;
+  
+}
+
+@media (max-width: 1500px) {
+  section.card {
+    grid-template-columns: repeat(3, 1fr);
+    
+    gap: 25px;
+    margin: 48px auto;
+    padding: 0 16px;
+  }
+
+  .card-3{
+    grid-template-columns: repeat(2, 1fr);
+    
+    gap: 25px;
+    margin: 48px auto;
+    padding: 0 16px;
+  }
+  
+
+  .carte {
+ 
+    padding: 48px 16px 24px;
+    gap: 48px;
+  }
+   .content h1 {
+    font-size: 18px;
+    text-align:left;
+    
+  }
+
+   .content p {
+    font-size: 14px;
+    text-align:left;
+  }
+ .attivita-ed-esperienze {
+    grid-template-columns: repeat(3, 1fr); 
+    max-width: 70%; 
+    gap: 24px; 
+    margin: 32px auto;
+    padding: 0 16px 20px;
+  }
+
+  .box-testo h2,
+  .box-testo p,
+  .box-testo a {
+    font-size: 16px; 
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 12px;
+    
+  }
+
+  .box-immagini {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch; 
+}
+
+.box-immagini img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 8px;
+  }
+}
+
+@media (max-width: 850px) {
+  
+  header,
+  footer {
+    flex-direction: row; 
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  header nav ul,
+  footer nav {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+
+  .content h1 {
+    font-size: 18px;
+    text-align:left;
+    
+  }
+
+   .content p {
+    font-size: 14px;
+    text-align:left;
+  }
+
+ 
+  section.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  section.card p {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+
+  section.card-3 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+  }
+
+  .card-3 img,
+  section.card-3 img {
+    height: 200px;
+  }
+
+  section.card-3 p,
+  .card-3 .text-box-3 p {
+    font-size: 14px;
+    height: auto;
+    padding: 20px;
+  }
+
+ 
+  .card,
+  .blocco {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .card img,
+  .blocco img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card .text-box,
+  .blocco .text-box {
+    padding: 16px;
+  }
+
+  .card .text-box h2,
+  .blocco .text-box h2 {
+    font-size: 20px;
+  }
+
+  .card .text-box p,
+  .blocco .text-box p {
+    font-size: 16px;
+  }
+
+
+  .attivita-ed-esperienze {
+    grid-template-columns: 1fr;
+     padding: 30px 10px;
+     gap: 20px;
+  }
+
+  .box-testo h2,
+  .box-testo p {
+    font-size: 14px;
+  }
+
+  .box-immagini {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .box-immagini img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .altri-parchi {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  .testo-parco {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  
+  .nome-sezione h1 {
+    font-size: 24px;
+    padding: 0 16px;
+  }
+
+ 
+  .carte {
+    padding: 32px 16px;
+    gap: 32px;
+  }
+
+  .carte-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 15px 15px 15px 15px;
+  }
+
+  .h2-carte {
+    position: static;
+    font-size: 20px;
+    padding-right: 0;
+    padding-top: 16px;
+  }
+
+  .h2-carte h2 {
+    font-size: 20px;
+  }
+
+  .p-carte {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .img-carte img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  
+  .content h1 {
+    font-size: 16px;
+   
+  }
+  
+
+  .content p,
+  .box-testo p,
+  .card .text-box p,
+  .blocco .text-box p,
+  .testo-parco,
+  .p-carte {
+    font-size: 14px;
+  }
+
+  .nome-sezione h1,
+  .card .text-box h2,
+  .blocco .text-box h2,
+  .h2-carte h2 {
+    font-size: 20px;
+  }
+
+  .h2-carte h2{
+   padding-top: 16px;
+  }
+    
+
+  .box-testo,
+  .carte,
+  .altri-parchi,
+  .attivita-ed-esperienze,
+  .section.card {
+    padding: 0 12px;
+    gap: 16px;
+  }
+
+   .carte {
+     padding: 0 12px;
+     gap: 16px;
+     max-width: 100%;
+   }
+
+  
+  .img-carte img,
+  .box-immagini img,
+  .card img,
+  .blocco img {
+    border-radius: 8px;
+  }
+
+  .box-immagini {
+    gap: 16px;
+  }
+
+  .attivita-ed-esperienze {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0 10px;  
+    width: 100%;  
+  }
+
+  .box-testo h2 {
+    font-size: 18px;
+  }
+
+  .box-testo p {
+    font-size: 14px;
+  }
+
+  .box-immagini {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .box-immagini img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
+.paragrafo {
+   max-width: 85%;
+  margin:auto;   
+ 
+}
+
+.paragrafo p {
+  max-width: 82%;
+  margin: 1em auto; 
+  font-size: 20px;
+  text-align: left;
+  margin-top: 2em;
+}
+
+
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  
+}
+
+.nav-bar p {
+  width: 50%;
+  margin: 0;
+  margin-left: 5%;
+  font-size: 18px;
+  font-weight:bold
+}
+
+.nav-bar a:first-of-type {
+  margin-left: auto; 
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0;
+  margin-right: 5%;
+  font-weight:500; 
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 80%;
+  
+  
+}
+
+.content h1 {
+  font-size: 25px;
+  margin:0;
+}
+
+
+.content p {
+  font-size: 18px;
+  font-weight:600;
+   margin:0;
+ }
+
+.prova-img {
+  display: none;
+}
+
+.header-contenitore {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/home\ section\ hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header-contenitore::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+
+
+
+.testo {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+
+.header-contenitore-storia {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/storia\ section\ hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-storia::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+
+.header-contenitore-date {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/date\ section\ hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-date::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-regioni {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/regioni\ section\ hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-regioni::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-limone {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/festa-limone.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-limone::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-giovanni {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/festa-san-giovanni.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-giovanni::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-cinghiale {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/festa-cinghiale.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-cinghiale::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-pesce {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/sagra-pesce.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-pesce::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-succu {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/festa-su-succu.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-succu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-cavallo {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/festa-cavallo.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-cavallo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+
+.header-contenitore-palio {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/palio-ticino.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-palio::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-ciliegie {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/sagra-ciliegie.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-ciliegie::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-gnocco {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/gnocco-fritto.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-gnocco::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+
+.header-contenitore-polenta {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/sagra-polenta.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-polenta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-birra {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/arcore-bear-fest.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-birra::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-peperoncino {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/peperoncino-festival.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-peperoncino::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-nduja {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/sagra-nduja.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-nduja::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-prodotti {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/sagra-prodotti-tipici.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-prodotti::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-stragusto {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/stragusto.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-stragusto::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-salsiccia {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/sagra-salsiccia.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-salsiccia::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.header-contenitore-cuccia {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image:url("../img/sagra-cuccia.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-cuccia::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+section.card-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 60%; 
+  margin: 48px auto;
+  gap: 30px;
+  
+}
+
+.card-3 img,
+section.card-3 img {
+  height: 250px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+section.card-3 p,
+.card-3 .text-box-3 p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #F4F4F4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  height: 45px;
+  align-items: center;
+  align-content: center;
+  padding: 30px 30px 30px 30px;
+ border-radius: 8px;
+  
+}
+
+section.card-3 .text a {
+  color: #101129;
+  font-weight: bold ;
+}
+
+
+
