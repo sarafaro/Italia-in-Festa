@@ -311,7 +311,7 @@ section.intro {
 }
 
 
-.nome-sezione {
+.nome-sezione h1 {
   max-width: 1100px; 
   margin: 48px auto;
   font-size: 18px;
@@ -366,7 +366,7 @@ footer nav a {
     padding: 0 16px;
     max-width: 60%;
   }
-  .nome-sezione {
+  .nome-sezione h1 {
     max-width: 60%;
     font-size: 18px;
   }
@@ -503,14 +503,10 @@ footer nav a {
   }
 
   .nome-sezione h1 {
-    font-size: 24px;
+    font-size: 20px;
     padding: 0 16px;
   }
 
-    .nome-sezione h1 {
-    font-size: 24px;
-    padding: 0 16px;
-  }
 
  
   .carte {
