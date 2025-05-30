@@ -446,6 +446,7 @@ footer nav a {
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 0 16px;
+    max-width:70%
   }
 
   section.card p {
@@ -484,6 +485,7 @@ footer nav a {
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 30px 10px;
+    max-width:70%
   }
 
   .box-testo h2,
@@ -505,6 +507,7 @@ footer nav a {
   .nome-sezione h1 {
     font-size: 20px;
     padding: 0 16px;
+    max-width:70%
   }
 
 
@@ -547,6 +550,7 @@ footer nav a {
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 0 16px;
+    max-width:70%
   }
 
 }
