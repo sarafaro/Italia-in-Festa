@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Instrument Sans', sans-serif;
   background-color: #fff;
@@ -21,14 +22,34 @@ a:hover {
   text-decoration: underline;
 }
 
+ul {
+  line-height: 1.6;
+  padding-left: 1.5rem; 
+}
 
+ul li {
+  margin-bottom: 14px;
+}
+
+.scopri {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+
+}
+
+.scopri a {
+  text-decoration: underline;
+  color: #101129;
+  font-weight: bold;
+}
 
 .carte {
   display: flex;
   flex-direction: column;
   gap: 64px;
   padding: 64px 16px 32px; 
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   
 }
@@ -65,7 +86,7 @@ a:hover {
 .p-carte {
   font-size: 16px;
   line-height: 1.5;
-  background-color: #F4F4F4;
+  background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   padding: 20px 20px 20px;
   border-radius: 8px;
@@ -90,7 +111,7 @@ a:hover {
 section.card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  max-width: 1200px ; 
+  max-width: 1100px ; 
   margin: 48px auto;
   gap: 30px;
   
@@ -100,7 +121,7 @@ section.card {
 .date-regioni {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  max-width: 1200px; 
+  max-width: 1100px; 
   margin: 48px auto;
   gap: 30px;
 
@@ -119,7 +140,7 @@ section.card {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  background-color: #F4F4F4;
+  background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   height: 45px;
   align-items: center;
@@ -153,7 +174,7 @@ section.card p,
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  background-color: #F4F4F4;
+  background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   height: 45px;
   align-items: center;
@@ -176,7 +197,7 @@ section.card div {
 
 .sezione-sfondo {
   background-color: #f5f5dc; 
-  padding: 40px 20px;        
+  padding: 30px 20px;        
   width: 100%;
   box-sizing: border-box;  
 }
@@ -189,7 +210,7 @@ section.intro {
 }
 
 .content {
-  max-width: 1200px; 
+  max-width: 1100px; 
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -220,14 +241,6 @@ section.intro {
   color: #101129;
 }
 
-.card .text-box {
-  background-color: #CEF17B;
-}
-
-.blocco .text-box {
-  background-color: #D5EFE6;
-}
-
 .card .text-box h2,
 .blocco .text-box h2 {
   font-size: 30px;
@@ -241,19 +254,19 @@ section.intro {
   line-height: 1.5;
 }
 
-.attivita-ed-esperienze {
+.sezione-storia {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: stretch; 
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 48px auto;
   padding-bottom: 20px;
   gap: 30px; 
 }
 
 .box-testo {
-  background-color: #F4F4F4;
+  background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   border-radius: 12px;
   width: 100%;
@@ -277,7 +290,7 @@ section.intro {
 }
 
 .box-testo a {
-  color: #084734;
+  color: #101129;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -299,27 +312,10 @@ section.intro {
 
 
 .nome-sezione1{
-  max-width: 1200px; 
+  max-width: 1100px; 
   margin: 48px auto;
   font-size: 18px;
   font-weight: bold;
-}
-
-.nome-sezione {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  padding: 20px;
-  margin: auto;
-  max-width: 2100px; 
-
-}
-
-
-.nome-sezione h1 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: auto;
 }
 
 
@@ -360,7 +356,7 @@ footer nav a {
     gap: 25px;
     margin: 48px auto;
     padding: 0 16px;
-    max-width: 70%;
+    max-width: 60%;
   }
   
   .date-regioni {
@@ -368,10 +364,10 @@ footer nav a {
     gap: 20px;
     margin: 20px auto;
     padding: 0 16px;
-    max-width: 70%;
+    max-width: 60%;
   }
   .nome-sezione1{
-    max-width: 70%;
+    max-width: 60%;
     font-size: 18px;
   }
 
@@ -402,9 +398,9 @@ footer nav a {
     text-align:left;
   }
 
- .attivita-ed-esperienze {
+ .sezione-storia {
     grid-template-columns: repeat(3, 1fr); 
-    max-width: 70%; 
+    max-width: 60%; 
     gap: 24px; 
     margin: 32px auto;
     padding: 0 16px 20px;
@@ -489,7 +485,7 @@ footer nav a {
     font-size: 16px;
   }
 
-  .attivita-ed-esperienze {
+  .sezione-storia {
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 30px 10px;
@@ -592,7 +588,7 @@ footer nav a {
   }
 
   .carte,
-  .attivita-ed-esperienze,
+  .sezione-storia,
   .box-testo,
   .date-regioni,
   .section.card {
@@ -624,7 +620,7 @@ footer nav a {
     height: auto;
   }
 
-  .attivita-ed-esperienze {
+  .sezione-storia {
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 0 10px;
@@ -813,7 +809,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/festa-limone.svg");
+  background-image:url("../img/festa\ limone\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -837,7 +833,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/festa-san-giovanni.svg");
+  background-image:url("../img/festa\ san\ giovanni\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -861,7 +857,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/festa-cinghiale.svg");
+  background-image:url("../img/sagra\ cinghiale\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -885,7 +881,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/sagra-pesce.svg");
+  background-image:url("../img/sagra\ pesce\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -909,7 +905,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/festa-su-succu.svg");
+  background-image:url("../img/festa\ su\ succu\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -933,7 +929,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/festa-cavallo.svg");
+  background-image:url("../img/festa\ cavallo\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -958,7 +954,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/palio-ticino.svg");
+  background-image:url("../img/palio\ ticino\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -982,7 +978,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/sagra-ciliegie.svg");
+  background-image:url("../img/sagra\ ciliegie\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1006,7 +1002,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/gnocco-fritto.svg");
+  background-image:url("../img/sagra\ gnocco\ fritto\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1031,7 +1027,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/sagra-polenta.svg");
+  background-image:url("../img/sagra\ polenta\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1055,7 +1051,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/arcore-bear-fest.svg");
+  background-image:url("../img/bear\ fest\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1079,7 +1075,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/peperoncino-festival.svg");
+  background-image:url("../img/peperoncino\ festival\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1103,7 +1099,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/sagra-nduja.svg");
+  background-image:url("../img/nduja\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1127,7 +1123,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/sagra-prodotti-tipici.svg");
+  background-image:url("../img/sagra\ prodotti\ tipici\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1151,7 +1147,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/stragusto.svg");
+  background-image:url("../img/stragusto\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1175,7 +1171,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/sagra-salsiccia.svg");
+  background-image:url("../img/sagra\ salsiccia\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1199,7 +1195,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/sagra-cuccia.svg");
+  background-image:url("../img/sagra\ cuccia\ section\ hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
