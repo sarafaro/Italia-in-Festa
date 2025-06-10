@@ -685,6 +685,16 @@ footer nav a {
   text-decoration: underline;
 }
 
+
+.nav-bar p a {
+  font-size: 18px;  
+  font-weight: 700; 
+  color: white;  
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+
 .content {
   max-width: 1200px;
   
