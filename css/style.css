@@ -131,7 +131,10 @@ section.card {
 .date-regioni img {
   height: 250px;
   width: 100%;
-  border-radius: 8px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  
+
 }
 
 .date-regioni p,
@@ -141,12 +144,13 @@ section.card {
   font-weight: bold;
   text-align: center;
   background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+ 
   height: 45px;
   align-items: center;
   align-content: center;
   padding: 30px 30px 30px 30px;
- border-radius: 8px;
+  border-bottom-right-radius:8px;
+  border-bottom-left-radius:8px;
   
 }
 
@@ -157,15 +161,17 @@ section.card {
 
 .date-regioni div {
   border-radius: 10px;
-  padding: 0 0 5px;
   height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
 }
 
 .card img,
 section.card img {
   height: 250px;
   width: 100%;
-  border-radius: 8px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
 }
 
 section.card p,
@@ -175,12 +181,13 @@ section.card p,
   font-weight: bold;
   text-align: center;
   background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
   height: 45px;
   align-items: center;
   align-content: center;
   padding: 30px 30px 30px 30px;
- border-radius: 8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
   
 }
 
@@ -190,9 +197,9 @@ section.card .text a {
 }
 
 section.card div {
-  border-radius: 10px;
-  padding: 0 0 5px;
+  border-radius: 8px;
   height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .sezione-sfondo {
@@ -229,8 +236,8 @@ section.intro {
 .card img,
 .blocco img {
   width: 15%; 
-
-  border-radius: 8px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
 }
 
 .card .text-box,
@@ -350,7 +357,7 @@ footer nav a {
 
 
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   section.card {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
