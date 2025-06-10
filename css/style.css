@@ -1,4 +1,10 @@
-
+:root {
+  --font-sm: 0.875rem;   
+  --font-base: 1rem;     
+  --font-md: 1.25rem;    
+  --font-lg: 1.563rem;   
+  --font-xl: 2rem;       
+}
 body {
   font-family: 'Instrument Sans', sans-serif;
   background-color: #fff;
@@ -1219,3 +1225,28 @@ footer nav a {
   background: rgba(0, 0, 0, 0.6); 
   z-index: 1;
 }
+
+
+.card .text-box p,
+.blocco .text-box p {
+  font-size: var(--font-md);
+  padding-bottom: 5px;
+}
+
+.card .text-box h2,
+.blocco .text-box h2 {
+  font-size: var(--font-lg);
+}
+
+footer {
+  font-size: var(--font-sm);
+}
+
+.h2-carte h2 {
+  font-size: var(--font-md);
+}
+
+.nome-sezione h1 {
+  font-size: var(--font-lg);
+}
+
