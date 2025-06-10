@@ -650,6 +650,10 @@ footer nav a {
   
 }
 
+.nav-bar a.active {
+  text-decoration: underline;
+}
+
 .nav-bar p {
   width: 50%;
   margin: 0;
